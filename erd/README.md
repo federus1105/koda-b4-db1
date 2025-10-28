@@ -35,6 +35,8 @@ borrowing {
     int book_id
     int member_id
     int librarian_id
+    date borrow_date
+    date return_date
 }
 
 categories }|--o{bookshelves : memiliki
