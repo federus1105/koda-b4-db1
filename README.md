@@ -44,7 +44,7 @@ categories }|--o{bookshelves : memiliki
 categories }o--|{books: dimiliki
 bookshelves }|--o{books: menyimpan
 
-books }o--o{ borrowing: dipinjam
+books }o--|{ borrowing: dipinjam
 members }|--o{borrowing : melakukan
 librarians }|--o{borrowing : menangani
 ```
